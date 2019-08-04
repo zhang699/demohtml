@@ -75,7 +75,7 @@
     z-index: 100;
     position: fixed;
     top: 0;
-    height: $progress-bar-height;
+    height: 0px;
     background-color: white;
   }
 </style>

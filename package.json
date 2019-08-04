@@ -16,14 +16,17 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core,": "fortawesome/vue-fontawesome",
+    "@fortawesome/free-regular-svg-icons": "^5.10.1",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "humps": "^2.0.0",
+    "immutable": "^3.8.1",
     "reduxsauce": "^0.5.0",
     "sass-loader": "^6.0.3",
     "scss-utils": "^1.0.1",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1",
-    "vuex": "^2.3.1",
-    "immutable":"^3.8.1"
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

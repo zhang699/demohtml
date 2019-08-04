@@ -1,4 +1,4 @@
-@import './theme.scss';
+@import "./theme.scss";
 .primary-button {
   background-color: $primary-color;
   border: none;
@@ -8,7 +8,6 @@
   &:hover {
     //color: ;
     border-color: $BORDER_COLOR;
-
   }
   &:active:not(.disabled-button) {
     background-color: $secondary-color;
@@ -22,7 +21,6 @@
     }
   }
   + * {
-    margin: 10px 20px;
   }
 }
 
@@ -41,7 +39,6 @@
   &:hover {
     //color: ;
     color: $FILL_COLOR;
-
   }
   &.strong {
     font-weight: 700;
@@ -63,7 +60,7 @@
   font-weight: 900;
 }
 
-[type='button'],
+[type="button"],
 button {
   &:active,
   &:hover,

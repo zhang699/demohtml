@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Merchandises from '@/components/MerchandiseDashboard/Merchandises';
-import Login from '@/components/Login/Login';
+import Match from '@/components/Match/Match';
+import Chat from '@/components/Chat/Chat';
 import Register from '@/components/Register/Register';
 import ShoppingCart from '@/components/ShoppingCart/ShoppingCart';
 
@@ -12,13 +12,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Merchandises',
-      component: Merchandises,
+      name: 'Match',
+      component: Match,
+      meta: {
+        title: '配對',
+      },
     },
     {
-      path: '/Login',
-      name: 'Login',
-      component: Login,
+      path: '/Chat',
+      name: 'Chat',
+      component: Chat,
+      meta: {
+        title: '聊天',
+      },
     },
     {
       path: '/Register',
